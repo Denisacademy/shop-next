@@ -31,6 +31,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# tips
+tips.docx
+~$tips.docx 
+~WRL3815.tmp
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
