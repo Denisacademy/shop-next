@@ -7,9 +7,9 @@ export const fetchFeaturedProducts = async () => {
       featured: true,
     },
     // select property
-    select: {
-      name: true,
-    },
+    // select: {
+    // name: true,
+    // },
   });
   console.log(products);
   return products;
