@@ -10,7 +10,7 @@ function Container({
   return (
     <div
       className={cn(
-        "outline outline-2 outline-offset-2 mx-auto max-w-6xl xl:max-w-7xl px-8",
+        "outline outline-1 mx-auto max-w-6xl xl:max-w-7xl px-8",
         className
       )}
     >
