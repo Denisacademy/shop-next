@@ -14,11 +14,9 @@ function CartButton() {
     >
       <Link href="/cart">
         <LuShoppingCart />
+        {/* SPOT */}
         <span
-          className="
-          absolute 
-          -top-3 
-          -right-3 
+          className="absolute -top-3 -right-3 
           bg-primary 
           text-white 
           rounded-full 

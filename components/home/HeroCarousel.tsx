@@ -15,7 +15,7 @@ const slides = [img1, img2, img3, img4];
 
 function HeroCarusel() {
   return (
-    <div className=" lg:block">
+    <div className="lg:block  size-11/12 mx-auto h-auto">
       <Carousel>
         <CarouselContent>
           {slides.map((slide, index) => {

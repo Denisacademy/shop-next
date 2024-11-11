@@ -13,6 +13,7 @@ import { links } from "@/utils/links";
 function LinksDropdown() {
   return (
     <DropdownMenu>
+      {/* ONLY TRIGGER */}
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
