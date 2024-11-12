@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import db from "../utils/db";
 
 // IT IS MORE EXPLICIT
@@ -31,4 +32,16 @@ export const fetchAllProducts = ({ search = "" }: { search: string }) => {
       createdAt: "desc",
     },
   });
+};
+
+export const fetchProduct = async (productId: string) => {
+  const product = await db.product.findUnique({
+    where: { id: productId },
+  });
+
+  if (!product) {
+    redirect("/products");
+  }
+
+  return product;
 };

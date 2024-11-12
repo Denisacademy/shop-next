@@ -21,12 +21,12 @@ async function ProductsContainer({ layout, search }: { layout: string; search: s
           <div className="flex gap-x-4">
             <Button variant={layout === "grid" ? "default" : "ghost"} asChild size="icon">
               <Link href={`/products/?layout=grid${searchTherm}`}>
-                <LucideLayoutGrid />{" "}
+                <LucideLayoutGrid />
               </Link>
             </Button>
             <Button variant={layout === "list" ? "default" : "ghost"} asChild size="icon">
               <Link href={`/products/?layout=list${searchTherm}`}>
-                <LuList />{" "}
+                <LuList />
               </Link>
             </Button>
           </div>
